@@ -27,3 +27,10 @@ html {
     background-color: black;
     margin: 20px;
 }
+
+@media screen and (max-width: 560px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
